@@ -1,0 +1,214 @@
+#root {
+  box-sizing: border-box;
+  
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+ 
+}
+
+
+.app {
+  max-width: 1280px;
+  height: 1280px;
+  display: flex;
+  flex-direction: column;
+  background: #23252C;
+  color: aliceblue;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.main {
+  
+  width: 317px;
+  justify-content: center;
+  background: #1A1B21;
+  border-radius: 10px;
+
+}
+
+.my-img {
+  justify-content: center;
+  align-items: center;
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0 0;
+}
+
+.my-name {
+  margin-bottom: 6px;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+
+}
+
+.job-description {
+  margin-top: 6px;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #F3BF99;
+
+}
+
+.about {
+  margin: 30px 35px 15px;
+  width: 247px;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  text-align: justify;
+  color: #DCDCDC;
+}
+
+.about > h3 {
+  margin: 25px auto 5px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about > p {
+  margin-top: 5px;
+}
+
+.interests {
+  margin: 15px 35px 35px;
+  width: 247px;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  text-align: justify;
+  color: #DCDCDC;
+}
+
+.interests > h3 {
+  margin: 10px auto 5px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.interests > p {
+  margin: 5px auto 24px;
+}
+
+.footer {
+  background: #161619;
+  width: 317px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 10px 10px; 
+}
+
+.icon {
+  margin: 15px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: auto 35px;
+  text-decoration: none !important;
+ 
+}
+
+
+.linkedin {
+  background: #5093E2;;
+  background-image: -webkit-linear-gradient(top, #5093E2 #2980b9);
+  background-image: -moz-linear-gradient(top, #5093E2 #2980b9);
+  background-image: -ms-linear-gradient(top, #5093E2 #2980b9);
+  background-image: -o-linear-gradient(top, #5093E2 #2980b9);
+  background-image: linear-gradient(to bottom, #5093E2 #2980b9);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 2px #666666;
+  -moz-box-shadow: 0px 1px 2px #666666;
+  box-shadow: 0px 1px 2px #666666;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  padding: 9px 13px;
+  text-decoration: none !important;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  width: 115px;
+}
+
+.linkedin:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.email {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #dae6ed);
+  background-image: -moz-linear-gradient(top, #ffffff, #dae6ed);
+  background-image: -ms-linear-gradient(top, #ffffff, #dae6ed);
+  background-image: -o-linear-gradient(top, #ffffff, #dae6ed);
+  background-image: linear-gradient(to bottom, #ffffff, #dae6ed);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 2px #666666;
+  -moz-box-shadow: 0px 1px 2px #666666;
+  box-shadow: 0px 1px 2px #666666;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+  padding: 9px 20px;
+  text-decoration: none !important;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  width: 115px;
+}
+
+.email:hover {
+  background: #ccf0e5;
+  background-image: -webkit-linear-gradient(top, #ccf0e5, #bad0de);
+  background-image: -moz-linear-gradient(top, #ccf0e5, #bad0de);
+  background-image: -ms-linear-gradient(top, #ccf0e5, #bad0de);
+  background-image: -o-linear-gradient(top, #ccf0e5, #bad0de);
+  background-image: linear-gradient(to bottom, #ccf0e5, #bad0de);
+  text-decoration: none;
+}

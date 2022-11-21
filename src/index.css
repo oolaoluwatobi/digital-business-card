@@ -1,0 +1,9 @@
+#root {
+  box-sizing: border-box;
+  
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
