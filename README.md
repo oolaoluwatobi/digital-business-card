@@ -3,6 +3,7 @@
 
 Digital business card containing links to my socials
 
+[Live site](https://gleeful-scone-2f67b4.netlify.app/)
 
 ## Screenshots
 
